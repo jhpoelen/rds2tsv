@@ -1,6 +1,14 @@
 # [rds2tsv.R](./rds2tsv.R)
 Streams R Data Serialized (rds) format from stdin to stdout in tab-separated-values (tsv) using R
 
+# Install
+
+```bash
+sudo curl -L https://raw.githubusercontent.com/jhpoelen/rds2tsv.R/main/rds2tsv.R > /usr/local/bin/rds2tsv.R && chmod +x /usr/local/bin/rds2tsv.R
+```
+
+:warning: please inspect this install script before running it.
+
 # Example
 
 ```bash 
